@@ -139,3 +139,60 @@ a
         font-size: 16px;
     }
 }
+@media screen and (min-device-width: 320px) and (max-device-width: 425px)
+{
+
+    header
+    {
+        font-size: 15px;
+        background-color: rgb(236, 225, 225);
+    }
+    li
+    {
+        align-items:center ;
+        margin-left: 2rem;
+    }
+    #logo
+    {
+        width: 70px;
+        margin-left: -12rem;
+    }
+    .heroContent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.05rem;
+    }
+    .heroPic
+    {
+        
+        width: 200px;
+        border-radius: 50%;
+    }
+    .heroP{
+        text-align: center;
+        display: flex;
+        width: 300px;
+        font-size: 16px;
+    }
+    .aboutContent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.05rem;
+        margin-bottom: 7rem;
+    }
+    .aboutPic
+    {
+        width: 200px;
+        border-radius: 50%;
+    }
+    .aboutP
+    {
+        margin-top: 3rem;
+        text-align: center;
+        display: flex;
+        width: 300px;
+        font-size: 16px;
+    }
+}
