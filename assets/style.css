@@ -1,0 +1,141 @@
+*
+{
+    padding:0;
+}
+body
+{
+    background-color: rgb(236, 225, 225);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home
+{
+    
+    padding: 0 10rem;
+}
+header
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(187, 185, 182);
+    padding: 2rem 3rem;
+    border-radius: 8px;
+}
+
+
+ul
+{
+    margin-top: 2rem;
+    display: flex;
+    list-style: none;
+}
+#logo
+{
+    justify-content: center;
+    border-radius: 50%;
+    width: 80px;
+}
+li{
+    align-items:center ;
+    margin-left: 3rem;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.heroContent 
+{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+.heroPic
+{
+    width: 400px;
+    border-radius: 50%;
+}
+.heroP{
+    display: flex;
+    width: 300px;
+    font-size: 20px;
+}
+.aboutContent 
+{
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 13rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+.aboutPic
+{
+    width: 400px;
+    border-radius: 50%;
+}
+.aboutP{
+    display: flex;
+    width: 300px;
+    font-size: 20px;
+}
+@media(max-width:320px)
+{
+    header
+    {
+        font-size: 15px;
+        background-color: rgb(236, 225, 225);
+    }
+    li
+    {
+        align-items:center ;
+        margin-left: 2rem;
+    }
+    #logo
+    {
+        width: 70px;
+        margin-left: -12rem;
+    }
+    .heroContent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.05rem;
+    }
+    .heroPic
+    {
+        
+        width: 200px;
+        border-radius: 50%;
+    }
+    .heroP{
+        text-align: center;
+        display: flex;
+        width: 300px;
+        font-size: 16px;
+    }
+    .aboutContent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.05rem;
+        margin-bottom: 7rem;
+    }
+    .aboutPic
+    {
+        width: 200px;
+        border-radius: 50%;
+    }
+    .aboutP
+    {
+        margin-top: 3rem;
+        text-align: center;
+        display: flex;
+        width: 300px;
+        font-size: 16px;
+    }
+}
