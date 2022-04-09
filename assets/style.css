@@ -46,8 +46,6 @@ ul
 }
 #logo
 {
-    justify-content: center;
-    border-radius: 50%;
     width: 100px;
 }
 #logo:hover
@@ -253,7 +251,7 @@ footer
         flex-direction: row;
     }
 }
-@media screen and (min-device-width: 321px) and (max-device-width: 425px)
+@media screen and (min-device-width: 321px) and (max-device-width: 768px)
 {
     
     a{
